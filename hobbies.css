@@ -1,6 +1,4 @@
-h1 {text-align: center;}
+h1, h2 {text-align: center;}
 p {text-align: center;}
-.table {border-collapse: collapse;}
-td, th {border: 1px solid #999;
-padding: 0.5rem;
-text-align: left;}
+table, td, th {border-collapse: collapse; border: 1px solid black;}
+.list {text-align: center;}
