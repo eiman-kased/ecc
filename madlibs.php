@@ -12,18 +12,20 @@
         Noun:<input type="text" name="noun" /> </br>
         Verb:<input type="text" name="verb" /> </br>
         Adjective:<input type="text" name="adj" /> </br>
-        <input type="submit" value="submit" />
+        <input type="submit" value="submit" name="submit_btn" />
     </form>
     </br>
     <?php
-    $noun = $_POST['noun'];
-    $verb = $_POST['verb'];
-    $adj = $_POST['adj'];
+    if (isset($_POST['submit_btn'])) {
+        $noun = $_POST['noun'];
+        $verb = $_POST['verb'];
+        $adj = $_POST['adj'];
 
-    echo "There is a $noun <br>";
-    echo "Who $verb everyday <br>";
-    echo "This $noun is not $adj, this $noun is very $adj <br>";
-    echo "The next day, the $noun $verb again<br>";
+        echo "There is a $noun <br>";
+        echo "Who $verb everyday <br>";
+        echo "This $noun is not $adj, this $noun is very $adj <br>";
+        echo "The next day, the $noun $verb again<br>";
+    }
     ?>
 </body>
 
