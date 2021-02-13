@@ -1,0 +1,23 @@
+h1 {color: black;
+text-align: center;
+}
+.image {display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+.image img
+{
+ box-shadow: 6px 6px 1px 0px rgba(0,0,0,.6);
+ border-top: 2px solid maroon;
+ border-left: 2px solid maroon;
+}
+
+p {text-align: center;
+font-family: 'Lexend Mega', sans-serif;}
+body {background-color: linen;}
+#statement {color: maroon;
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;}
+#skills {font-family: 'Lexend Mega', sans-serif;}
