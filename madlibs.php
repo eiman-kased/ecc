@@ -37,10 +37,11 @@
             echo
                 "<h3 style='color: red'>Please Choose an Adjective!</h3>";
         }
-        echo "There is a $noun <br>";
-        echo "Who $verb everyday <br>";
-        echo "This $noun is not $adj, this $noun is very $adj <br>";
-        echo "The next day, the $noun $verb again<br>";
+        echo "There is a $noun </br>";
+        echo "Who $verb everyday </br>";
+        echo "This $noun is not $adj, this $noun is very $adj </br>";
+        echo "The next day, the $noun $verb again</br>";
+        /*add a clear button search how to clear a form*/
     }
     ?>
 </body>

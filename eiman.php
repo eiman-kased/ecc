@@ -15,12 +15,14 @@
 </head>
 
 <body>
-    <div name="image">
+    <div name="image" class="image">
         <!--image is linked to womenwhosidehustle newsletter-->
+
         <a href="https://www.womenwhosidehustle.com" target="_blank" class="image">
             <img src="https://bit.ly/39OWC6g" alt="Female Coder" width="400px">
         </a>
 
+    </div>
     </div>
 
     <div name="intro">
