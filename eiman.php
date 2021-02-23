@@ -15,6 +15,20 @@
 </head>
 
 <body>
+
+    <div class="topnav">
+        <a href="eiman.php">Home</a>
+        <a href="hobbies.htm">Hobbies</a>
+        <div class="dropdown">
+            <button class="dropbtn">References
+            </button>
+            <div class="dropdown-content">
+                <a href="https://www.w3schools.com/" target="_blank">W3schools</a>
+                <a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a>
+                <a href="https://www.codeacademy.com" target="_blank">Codecademy</a>
+            </div>
+        </div>
+    </div>
     <div name="image" class="image">
         <!--image is linked to womenwhosidehustle newsletter-->
 
@@ -48,12 +62,12 @@
         <!--links to resources-->
         <p>
             <ol id="reference">
-                <li> <a href="https://www.w3schools.com/" target=_blank">W3Schools</a>
+                <li> <a id="ws" href="https://www.w3schools.com/" target=_blank">W3Schools</a>
                 </li>
-                <li> <a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a>
+                <li> <a id="free" href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a>
                 </li>
                 <li>
-                    <a href="https://www.codeacademy.com" target="_blank">CodeAcademy</a>
+                    <a id="code" href="https://www.codeacademy.com" target="_blank">CodeAcademy</a>
                 </li>
             </ol>
             <!--link to second page:hobbies-->
