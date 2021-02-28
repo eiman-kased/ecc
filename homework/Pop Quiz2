@@ -1,0 +1,47 @@
+1. How can I see a listing of my previous commits on my pc? `git log` @rbaia28
+
+2. What command can I use to list all files (including hidden files) in my current directory? `ls -a` @eiman-kased
+
+3. What command can I use to find out what directory I am in? `pwd` @WaymonBrown84
+
+4. What is the difference between `'` and `"` in PHP? '' is a string literal, it won't interpret variables, "" will interpret the value of the variable if used.
+
+5. What are the PHP values that equate to `FALSE`? 0, null, false, empty string @nburd90
+
+6. What goes in a `<head></head>` tag? all the metadata for the page, such as links to the css sheet, google fonts, bootstrap etc. @margeschrec
+
+7. Why would I use an html class property vs an id? id should apply to a single element, where class applies to a larger subset of elements without being tag specific. ie error class @CharleswithLove
+
+8. Explain what `$_POST` is in PHP. It is an array @gc824
+
+9. What html property is used to populate the `$_POST` array in PHP? the `name` property. @williamrockowl
+
+10. When should I use inline styles? To override other styles @cwlainson
+
+11. What is the order of the git workflow? @nburd90
+git clone url
+cd into new directory
+git checkout -b name-of-branch
+create and update some files
+git status
+git add filename(s)
+git commit -m "the message that identifies what changes were made"
+git push -u origin name-of-branch
+create a pull request
+add a reviewer to pull request
+assign yourself to the pull request
+once approved merge the request into main/master
+git checkout main/master
+git pull -p
+
+12. What is the output of the following code?
+End processing @vricci518
+
+```PHP
+$array = array();
+
+if(!empty($array)){
+    echo 'The array has '.length($array).' elements';
+}
+echo 'End processing';
+```
