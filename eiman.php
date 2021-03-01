@@ -2,22 +2,47 @@
 <html lang="en-us">
 
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/eiman_kased.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
 
     <meta charset="UTF-8" />
     <title>Full Stack Developer</title>
-    <!-- <style>
-        h2 {
-            color: red;
-        }
-    </style>-->
 </head>
 
 <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-darkt bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Welcome</a>
+            <button class="navbar-toggler btn btn-outline-secondary active" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="eiman.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobbies.htm">Hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="madlibs.php">Madlibs</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">References</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="https://www.w3schools.com/" target="_blank">W3Schools</a></li>
+                            <li> <a class="dropdown-item" href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a></li>
+                            <li> <a class="dropdown-item" href="https://www.codeacademy.com" target="_blank">Codeacademy</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <div class="topnav">
+    <!--  <div class="topnav">
         <a href="eiman.php">Home</a>
         <a href="hobbies.htm">Hobbies</a>
         <div class="dropdown">
@@ -29,7 +54,7 @@
                 <a href="https://www.codeacademy.com" target="_blank">Codecademy</a>
             </div>
         </div>
-    </div>
+    </div> -->
     <div name="image" class="image">
         <!--image is linked to womenwhosidehustle newsletter-->
 
