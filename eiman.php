@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-darkt bg-dark">
+    <nav class="navbar container-fluid sticky-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Welcome</a>
             <button class="navbar-toggler btn btn-outline-secondary active" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,28 +42,12 @@
         </div>
     </nav>
 
-    <!--  <div class="topnav">
-        <a href="eiman.php">Home</a>
-        <a href="hobbies.htm">Hobbies</a>
-        <div class="dropdown">
-            <button class="dropbtn">References
-            </button>
-            <div class="dropdown-content">
-                <a href="https://www.w3schools.com/" target="_blank">W3schools</a>
-                <a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a>
-                <a href="https://www.codeacademy.com" target="_blank">Codecademy</a>
-            </div>
-        </div>
-    </div> -->
-    <div name="image" class="image">
-        <!--image is linked to womenwhosidehustle newsletter-->
+    <!--image is linked to womenwhosidehustle newsletter-->
 
-        <a href="https://www.womenwhosidehustle.com" target="_blank" class="image">
-            <img src="https://bit.ly/39OWC6g" alt="Female Coder" width="400px">
-        </a>
+    <a href="https://www.womenwhosidehustle.com" target="_blank" class="image">
+        <img src="https://bit.ly/39OWC6g" alt="Female Coder" width="400px">
+    </a>
 
-    </div>
-    </div>
 
     <div name="intro">
         <!--This is my intro to about me-->
