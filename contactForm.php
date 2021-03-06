@@ -10,10 +10,11 @@
 
 <body>
     <?php
+
     $firstName = '';
     $lastName = '';
-    $text = '';
     $emai = '';
+    $message = '';
 
     if (isset($_POST['submit_btn'])) {
         if (!empty(trim($_POST['firstName']))) {
@@ -28,16 +29,16 @@
             echo '<span class="error">*Last Name is Required</span></br>';
         }
 
-        if (!empty(trim($_POST['text']))) {
-            $text = trim($_POST['text']);
-        } else {
-            echo '<span class="error">*Enter your Message</span><br/>';
-        }
-
         if (!empty(trim($_POST['email']))) {
             $email = trim($_POST['email']);
         } else {
             echo '<span class="error">*Enter your Email</span><br/>';
+        }
+
+        if (!empty(trim($_POST['message']))) {
+            $message = trim($_POST['message']);
+        } else {
+            echo '<span class="error">*Enter your Message</span><br/>';
         }
     }
 
@@ -60,10 +61,12 @@
 
         <div class="phone">
             <label for="phone">Phone Number*</br>Format:123-456-7890</label>
-            <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" />
+            <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" <?= (isset($_POST['tel']) ? 'value="' . $_POST['tel'] . '"' : '') ?> />
             </br>
         </div>
         </br></br>
+
+
 
         <div class="email">
             Enter an Email<input type="email" id="email" name="email" placeholder="email@example.com" <?= (isset($_POST['email']) ? 'value="' . $_POST['email'] . '"' : '') ?> required />
@@ -71,13 +74,15 @@
         </div>
         </br></br>
 
-        <div class="text">
-            <label for="text">Please Leave a Message Here</label></br>
-            <textarea id="text" name="text" rows="5" cols="50"></textarea>
+        <div class="message">
+            <label for="message">Please Leave a Message Here</label></br>
+            <textarea id="message" name="message" rows="5" cols="50" required><?= (isset($_POST['message']) ? $_POST['messge'] . $message : '') ?></textarea>
         </div>
         </br></br>
+
+
         <div class="submit">
-            <input type="submit" name="submit_btn" value="Submit Application" />
+            <input type="submit" name="submit_btn" value="Submit" />
         </div>
     </form>
 
