@@ -13,7 +13,7 @@
 
     $firstName = '';
     $lastName = '';
-    $emai = '';
+    $email = '';
     $message = '';
 
     if (isset($_POST['submit_btn'])) {
@@ -50,35 +50,35 @@
         <div class="name">
 
             First Name:*<input type="text" name="firstName" id="firstName" <?= (isset($_POST['firstName']) ? 'value="' . $_POST['firstName'] . '"' : '') ?> required />
-            </br></br>
+
 
             Middle Initial:<input type="text" name="middleName" id="middleName" <?= (isset($_POST['middleName']) ? 'value="' . $_POST['middleName'] . '"' : '') ?> />
-            </br></br>
+
 
             Last Name:*<input type="text" name="lastName" id="lastName" <?= (isset($_POST['lastName']) ? 'value="' . $_POST['lastName'] . '"' : '') ?> required />
-        </div>
-        <br /><br />
+        </div> <br />
+
 
         <div class="phone">
             <label for="phone">Phone Number*</br>Format:123-456-7890</label>
             <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" <?= (isset($_POST['tel']) ? 'value="' . $_POST['tel'] . '"' : '') ?> />
-            </br>
-        </div>
-        </br></br>
+
+        </div><br />
+
 
 
 
         <div class="email">
             Enter an Email<input type="email" id="email" name="email" placeholder="email@example.com" <?= (isset($_POST['email']) ? 'value="' . $_POST['email'] . '"' : '') ?> required />
-            </br></br>
-        </div>
-        </br></br>
+
+        </div><br />
+
 
         <div class="message">
             <label for="message">Please Leave a Message Here</label></br>
             <textarea id="message" name="message" rows="5" cols="50" required><?= (isset($_POST['message']) ? $_POST['messge'] . $message : '') ?></textarea>
-        </div>
-        </br></br>
+        </div><br />
+
 
 
         <div class="submit">
