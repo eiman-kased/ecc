@@ -44,20 +44,16 @@
 
     ?>
 
-
     <form action="contactForm.php" method="post" id="contact">
 
         <div class="name">
 
             First Name:*<input type="text" name="firstName" id="firstName" <?= (isset($_POST['firstName']) ? 'value="' . $_POST['firstName'] . '"' : '') ?> required />
 
-
             Middle Initial:<input type="text" name="middleName" id="middleName" <?= (isset($_POST['middleName']) ? 'value="' . $_POST['middleName'] . '"' : '') ?> />
-
 
             Last Name:*<input type="text" name="lastName" id="lastName" <?= (isset($_POST['lastName']) ? 'value="' . $_POST['lastName'] . '"' : '') ?> required />
         </div> <br />
-
 
         <div class="phone">
             <label for="phone">Phone Number*</br>Format:123-456-7890</label>
@@ -65,27 +61,20 @@
 
         </div><br />
 
-
-
-
         <div class="email">
             Enter an Email<input type="email" id="email" name="email" placeholder="email@example.com" <?= (isset($_POST['email']) ? 'value="' . $_POST['email'] . '"' : '') ?> required />
 
         </div><br />
-
 
         <div class="message">
             <label for="message">Please Leave a Message Here</label></br>
             <textarea id="message" name="message" rows="5" cols="50" required><?= (isset($_POST['message']) ? $_POST['messge'] . $message : '') ?></textarea>
         </div><br />
 
-
-
         <div class="submit">
             <input type="submit" name="submit_btn" value="Submit" />
         </div>
     </form>
-
 
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
