@@ -37,6 +37,9 @@
                             <li> <a class="dropdown-item" href="https://www.codeacademy.com" target="_blank">Codeacademy</a></li>
                         </ul>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactForm.php">Contact Me</a>
+                    </li>
                 </ul>
             </div>
         </div>
