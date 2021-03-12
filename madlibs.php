@@ -3,19 +3,19 @@
 
 <head>
 	<meta charset="UTF-8">
-	<link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet"/>
 
 	<title>Mad Libs</title>
 </head>
 
 <body>
 	<form action="madlibs.php" method="post">
-		Noun:<input type="text" name="noun" /> <br />
-		Verb:<input type="text" name="verb" /> <br />
-		Adjective:<input type="text" name="adj" /> <br />
-		<input type="submit" value="submit" name="submit_btn" />
+		Noun:<input type="text" name="noun"/> <br/>
+		Verb:<input type="text" name="verb"/> <br/>
+		Adjective:<input type="text" name="adj"/> <br/>
+		<input type="submit" value="submit" name="submit_btn"/>
 	</form>
-	<br />
+	<br/>
 	<?php
 	if (isset($_POST['submit_btn'])) {
 		$noun = $_POST['noun'];

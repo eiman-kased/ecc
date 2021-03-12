@@ -3,11 +3,11 @@
 
 <head>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet" />
-	<link rel="stylesheet" href="css/eiman_kased.css" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet"/>
+	<link rel="stylesheet" href="css/eiman_kased.css"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>
 
-	<meta charset="UTF-8" />
+	<meta charset="UTF-8"/>
 	<title>Full Stack Developer</title>
 </head>
 
@@ -80,7 +80,7 @@
 			<span class="visually-hidden">Next</span>
 		</button>
 	</div>
-	<hr />
+	<hr/>
 	<div name="intro">
 		<!--This is my intro to about me-->
 		<h1>About Me</h1>
@@ -119,18 +119,18 @@
 
 	<div name="comment">
 		<form action="#">
-			<input type="text" placeholder="Send a Message" required />
-			<input type="submit" value="submit" />
+			<input type="text" placeholder="Send a Message" required/>
+			<input type="submit" value="submit"/>
 		</form>
 	</div>
 
 	<form action="eiman.php" method="post" name="contact">
-		First Name:<input type="text" name="first" placeholder="First Name" /> <br />
-		Last Name:<input type"text" name="last" placeholder="Last Name" />
-		Phone Number:<input type="tel" name="tel" placeholder="Phone Number" />
-		<input type="submit" value="submit" />
+		First Name:<input type="text" name="first" placeholder="First Name"/> <br/>
+		Last Name:<input type"text" name="last" placeholder="Last Name"/>
+		Phone Number:<input type="tel" name="tel" placeholder="Phone Number"/>
+		<input type="submit" value="submit"/>
 	</form>
-	<br />
+	<br/>
 	<?php
 	$first = $_POST['first'];
 	$last = $_POST['last'];
@@ -143,11 +143,11 @@
 	?>
 
 	<form action="eiman.php" method="post">
-		PHP:<input type="checkbox" name="resource[]" value="php" /> <br />
-		CSS:<input type="checkbox" name="resource[]" value="css" /> <br />
-		<input type="submit" value="submit" />
+		PHP:<input type="checkbox" name="resource[]" value="php"/> <br/>
+		CSS:<input type="checkbox" name="resource[]" value="css"/> <br/>
+		<input type="submit" value="submit"/>
 	</form>
-	<br />
+	<br/>
 	<?php
 	$php = $_POST['php'];
 	$css = $_POST['css'];
