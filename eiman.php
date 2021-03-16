@@ -143,7 +143,7 @@
 	?>
 
 	<form action="eiman.php" method="post">
-		PHP:<input type="checkbox" name="resource[]" value="php"/> <br/>
+		PHP:<input type="checkbox" name="resource[]" value="php/> <br/>
 		CSS:<input type="checkbox" name="resource[]" value="css"/> <br/>
 		<input type="submit" value="submit"/>
 	</form>
